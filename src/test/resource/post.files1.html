@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+    <style type="text/css">
+        body {
+            background-color: #e7e7e7;
+        }
+
+        div {
+            margin: 10px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                document.getElementById('frm').submit();
+                return false;
+            };
+        };
+    </script>
+</head>
+<body>
+<form action="http://localhost:8080/upload" id="frm" method="post" enctype="multipart/form-data">
+    <input type="button" id="btn" value="전송"></div>
+    <input type="file" name="file01">
+</form>
+</body>
+</html>
