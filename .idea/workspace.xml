@@ -2,10 +2,149 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2a8ce64-a562-4188-8803-3d9c4a3a36b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.dalcomlab.sattang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/azure-pipelines.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/AbstractHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/AcceptSelectionKeyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/HttpRequestHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerNio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/ReadSelectionKeyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/SelectionKeyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/DelegationInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/DelegationOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpChunkedEncodingParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpChunkedEncodingScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpFormParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpFormScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpHeaderParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpParameterParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpParameterParserSlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartParserLineVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartScannerLineVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpRequestLineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpRequestLineScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/LimitedInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/LimitedOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/MimeHeaderDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/QuotedPrintableDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestChunkedEncodingParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestHttpFormParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestHttpParameterParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestHttpPartParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestMimeHeaderDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestRequestLineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/uploadfiles/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/AbstractHttpServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/AcceptSelectionKeyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/HttpRequestHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/HttpServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/HttpServerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/HttpServerNio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/ReadSelectionKeyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/SelectionKeyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/DelegationInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/DelegationOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingParser$ChunkHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingParser$LengthHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingParser$TrailerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingScanner$IllegalCharacterException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingScanner$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingScanner$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpChunkedEncodingScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormParser$NameHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormParser$TooManyParametersException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormParser$ValueHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormScanner$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormScanner$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpFormScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpHeader$HttpMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpHeaderParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParameterParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParameterParserSlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser$MockPartBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser$RequestBodyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser$RequestHeaderHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser$RequestLineHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParser$BodyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParser$HeaderHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParser$PreambleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParserLineVersion$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParserLineVersion$BodyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParserLineVersion$HeaderHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParserLineVersion$PreambleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartParserLineVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScanner$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScanner$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScannerLineVersion$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScannerLineVersion$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScannerLineVersion$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpPartScannerLineVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineParser$MethodHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineParser$ProtocolHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineParser$UriHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineScanner$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineScanner$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpRequestLineScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpScanner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpScanner$Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpScanner$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/HttpScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/LimitedInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/LimitedOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/MimeHeaderDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/waffle/http/server/parser/QuotedPrintableDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestChunkedEncodingParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpFormParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpParameterParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpPartParser$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpPartParser$MockPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpPartParser$MockPartBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestHttpPartParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestMimeHeaderDecoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/waffle/http/server/parser/TestRequestLineParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/waffle.http.server.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,57 +154,8 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestMimeHeaderDecoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerMain.java" />
-        <option value="$PROJECT_DIR$/src/test/resource/post.files1.html" />
-        <option value="$PROJECT_DIR$/src/test/resource/post.files2.html" />
-        <option value="$PROJECT_DIR$/src/test/resource/post.files3.html" />
-        <option value="$PROJECT_DIR$/src/main/java/waffle/http/server/AbstractHttpServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartScanner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestMimeHeaderDecoder.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="232" />
@@ -73,31 +163,13 @@
     <option name="width" value="2094" />
     <option name="height" value="1276" />
   </component>
+  <component name="ProjectId" id="1PixuymhRsQdUVboOyil0HxyGUJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="waffle.http.server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="waffle.http" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.RegExp" />
@@ -114,9 +186,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HttpServerMain">
+  <component name="RunManager" selected="Application.HttpServerFileServer">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServerFileServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="samples.HttpServerFileServer" />
+      <module name="com.dalcomlab.sattang" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,6 +272,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpServerFileServer" />
         <item itemvalue="TestNG.TestHttpPartParser" />
         <item itemvalue="Application.HttpServerMain" />
       </list>
@@ -206,6 +293,8 @@
       <workItem from="1554939613119" duration="556000" />
       <workItem from="1555898512330" duration="31000" />
       <workItem from="1555899609682" duration="27000" />
+      <workItem from="1566370950510" duration="130000" />
+      <workItem from="1566371137343" duration="7000" />
     </task>
     <servers />
   </component>
@@ -214,169 +303,20 @@
       <configuration name="TestHttpPartParser" configurationId="TestNG" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="830000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="232" y="60" width="2094" height="1276" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2646199" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293919" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39949325" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293919" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Codota" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wafflehttpserver.iml" />
-    <entry file="file://$PROJECT_DIR$/waffle.http.server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/post.files2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/post.files3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/ReadSelectionKeyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/AbstractHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerNio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/post.files1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="62" column="68" lean-forward="true" selection-start-line="62" selection-start-column="68" selection-end-line="62" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestHttpPartParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="53" lean-forward="true" selection-end-line="222" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#5021#5022#0" expanded="true" />
-            <element signature="e#5055#5056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/parser/HttpPartScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="358" lean-forward="true" selection-start-line="358" selection-end-line="358" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/waffle/http/server/HttpServerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/waffle/http/server/parser/TestMimeHeaderDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

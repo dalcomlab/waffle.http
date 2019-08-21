@@ -1,0 +1,152 @@
+/*
+ * Copyright SATTANG 2019
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at:
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+ * implied. See the License for the specific language governing
+ * permissions and limitations under the License.
+ */
+package com.dalcomlab.sattang.net.socket;
+
+import com.dalcomlab.sattang.concurrent.CompletionHandler;
+import com.dalcomlab.sattang.net.WriteQueue;
+import com.dalcomlab.sattang.net.event.EventDispatcher;
+import com.dalcomlab.sattang.net.event.EventExecutor;
+
+import java.nio.ByteBuffer;
+import java.nio.channels.SocketChannel;
+
+/**
+ * @author ByungChang Yoo (dalcomlab@gmail.com)
+ */
+public class SocketWriteQueue implements WriteQueue {
+    private final EventDispatcher dispatcher;
+    private final SocketChannel channel;
+   // private final Queue<IORecord> queue = new ConcurrentLinkedQueue<>();
+
+    /**
+     * @param channel
+     * @param dispatcher
+     */
+    public SocketWriteQueue(SocketChannel channel, EventDispatcher dispatcher) {
+        this.channel = channel;
+        this.dispatcher = dispatcher;
+    }
+
+
+    /**
+     * @param buffer
+     * @param handler
+     */
+    @Override
+    public void write(ByteBuffer buffer, CompletionHandler<ByteBuffer> handler) {
+        /*
+        if (handler == null) {
+            handler = CompletionHandler.INSTANCE;
+        }
+
+        // workaround for an empty buffer.
+        if (!buffer.hasRemaining()) {
+            handler.completed(buffer);
+            return;
+        }
+
+        if (queue.isEmpty()) {
+            try {
+                channel.write(buffer);
+            } catch (Exception e) {
+                handler.failed(e);
+            }
+
+            if (!buffer.hasRemaining()) {
+                handler.completed(buffer);
+                return;
+            } else {
+                handler.update(buffer);
+            }
+
+        }
+
+        queue.offer(new IORecord(buffer, handler));
+
+        dispatcher.register(new EventExecutor<SocketChannel>() {
+            @Override
+            public SocketChannel channel() {
+                return channel;
+            }
+
+            public SocketEvent event() {
+                return SocketEvent.WRITE;
+            }
+
+            @Override
+            public void execute(SocketChannel channel, EventDispatcher dispatcher) {
+                process(channel, dispatcher, this);
+            }
+        });
+
+         */
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void end() {
+
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void close() {
+
+    }
+
+    /**
+     * @return
+     */
+    @Override
+    public boolean canWrite() {
+        return false;
+    }
+
+
+
+    /**
+     * @param channel
+     * @param dispatcher
+     */
+    private void process(SocketChannel channel, EventDispatcher dispatcher, EventExecutor<SocketChannel> event) {
+     /*
+        IORecord record = queue.peek();
+        if (record != null) {
+            ByteBuffer buffer = record.getBuffer();
+            try {
+                channel.write(buffer);
+                if (buffer.hasRemaining()) {
+                    record.update();
+                } else {
+                    record.complete();
+                    queue.poll();
+                }
+
+            } catch (Exception e) {
+                queue.poll();
+            } finally {
+                if (!queue.isEmpty()) {
+                    dispatcher.register(event);
+                }
+            }
+        }
+      */
+    }
+}
