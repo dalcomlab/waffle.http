@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="waffle.http.server" />
+        <module name="com.dalcomlab.sattang" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.dalcomlab.sattang" target="8" />
       <module name="waffle.http.server" target="8" />
     </bytecodeTargetLevel>
   </component>
