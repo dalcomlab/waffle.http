@@ -134,6 +134,8 @@ public class HttpConnection extends SocketConnection {
      */
     @Override
     public void reuse() {
+        readChannel.reuse();
+        writeChannel.reuse();
         decoder.reset();
         request.reuse();
         response.reuse();
@@ -164,6 +166,7 @@ public class HttpConnection extends SocketConnection {
         }
 
         if (handler == null) {
+            close();
             return;
         }
 
@@ -174,11 +177,29 @@ public class HttpConnection extends SocketConnection {
             // filter.filter(SocketChannelConnection, request);
         }
 
-        response.addHeader(HttpHeader.CONNECTION, "close");
+        boolean isKeepAlive = request.getHeader(HttpHeader.CONNECTION).equalsIgnoreCase("keep-alive");
+        if(isKeepAlive) {
+            response.addHeader(HttpHeader.CONNECTION, "keep-alive");
+            response.addHeader(HttpHeader.KEEP_ALIVE, "timeout=5, max=1000");
+        } else {
+            response.addHeader(HttpHeader.CONNECTION, "close");
+        }
+
         response.addHeader(HttpHeader.CACHE_CONTROL, "no-cache");
         handler.handle(request, response);
 
-        close();
+        isKeepAlive = false;
+        if (isKeepAlive) {
+            try {
+                state.set(State.STOPPED);
+                reuse();
+                start();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } else {
+            close();
+        }
     }
 
     /**

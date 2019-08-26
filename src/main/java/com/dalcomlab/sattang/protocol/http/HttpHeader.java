@@ -66,6 +66,7 @@ public class HttpHeader {
     public static final String IF_NONE_MATCH = "If-None-Match";
     public static final String IF_RANGE = "If-Range";
     public static final String IF_UNMODIFIED_SINCE = "If-Unmodified-Since";
+    public static final String KEEP_ALIVE = "Keep-Alive";
     public static final String LAST_MODIFIED = "Last-Modified";
     public static final String LINK = "Link";
     public static final String LOCATION = "Location";

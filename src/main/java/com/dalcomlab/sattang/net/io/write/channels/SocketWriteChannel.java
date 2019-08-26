@@ -55,6 +55,18 @@ public class SocketWriteChannel implements WriteChannel {
     }
 
     /**
+     *
+     */
+    public void reuse() {
+        this.end();
+        this.buffer.clear();
+        this.filters.clear();
+        this.buffer = ByteBuffer.allocate(1024 * 8);
+        state = ChannelState.INIT;
+        isCommitted = false;
+    }
+
+    /**
      * Returns the {@link ByteBuffer} for this write channel.
      *
      * @return

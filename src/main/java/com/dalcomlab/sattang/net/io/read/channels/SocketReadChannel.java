@@ -37,7 +37,7 @@ public class SocketReadChannel implements ReadChannel {
     private final AbstractSocket socket;
     private final Deque<ReadFilter> filters = new ConcurrentLinkedDeque();
     private final ReadFilter readFilter;
-    private final ReadBufferFilter bufferFilter;
+    private ReadBufferFilter bufferFilter;
     private ReadChannelListener listener = null;
     private ByteBuffer buffer;
     private ChannelState state = ChannelState.INIT;
@@ -67,6 +67,19 @@ public class SocketReadChannel implements ReadChannel {
         this.bufferFilter = new ReadBufferFilter(this.buffer);
         bufferFilter.next(readFilter);
     }
+
+    /**
+     *
+     */
+    public void reuse() {
+        this.state = ChannelState.INIT;
+        this.buffer = ByteBuffer.allocate(1024 * 8);
+        this.bufferFilter = new ReadBufferFilter(this.buffer);
+        this.bufferFilter.next(readFilter);
+        this.filters.clear();
+
+    }
+
 
     /**
      * Returns the {@link ByteBuffer} for this read channel.
