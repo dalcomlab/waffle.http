@@ -11,6 +11,7 @@
 
 # 2. 사용
 * Maven 을 사용하는 경우 내부 메이븐 저장소를 사용한다.
+* 참고로 setting.xml 파일은 인텔리제이를 사용하는 경우 메이븐 프로젝트에서 마우스 오른쪽 버튼을 눌러 'Create setting.xml' 또는 'Open setting.xml' 메뉴로 열 수 있다.
 
 settings.xml
 ```xml
@@ -26,19 +27,19 @@ settings.xml
 pom.xml
 ```xml
 <dependencies>
-        <dependency>
-            <groupId>com.dalcomlab.sattang</groupId>
-            <artifactId>com.dalcomlab.sattang</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
+    <dependency>
+        <groupId>com.dalcomlab.sattang</groupId>
+        <artifactId>com.dalcomlab.sattang</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
     
-    <repositories>
-        <repository>
-            <id>dalcomlab-private-repo</id>
-            <url>http://52.231.78.123:18081/repository/maven-releases</url>
-        </repository>
-    </repositories>
+<repositories>
+    <repository>
+        <id>project-private-repo</id>
+        <url>http://52.231.78.123:18081/repository/maven-releases</url>
+    </repository>
+</repositories>
 ```
 
 * Release 에서 `com.dalcomlab.sattang-1.0.0.jar` 파일을 다운로드 받아 참조한다.

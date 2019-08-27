@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2a8ce64-a562-4188-8803-3d9c4a3a36b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/01.class.diagram.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/02.class.diagram.protocol.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/03.sequence.diagram.http.server.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/04.sequence.diagram.write.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/05.sequence.diagram.read.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/06.sequence.diagram.read.ajp.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
